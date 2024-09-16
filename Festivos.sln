@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D1E534C9-20B0-4FA0-A4FF-B9943D7838B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Festivos.Domain", "Festivos.Domain\Festivos.Domain.csproj", "{E04957DA-2B1D-41BA-A96B-96FF91E69025}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Festivos.Application", "Festivos.Application\Festivos.Application.csproj", "{BD1DBC5D-FB63-4993-BFAC-62C67129C293}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E04957DA-2B1D-41BA-A96B-96FF91E69025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04957DA-2B1D-41BA-A96B-96FF91E69025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04957DA-2B1D-41BA-A96B-96FF91E69025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04957DA-2B1D-41BA-A96B-96FF91E69025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD1DBC5D-FB63-4993-BFAC-62C67129C293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1DBC5D-FB63-4993-BFAC-62C67129C293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1DBC5D-FB63-4993-BFAC-62C67129C293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1DBC5D-FB63-4993-BFAC-62C67129C293}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E04957DA-2B1D-41BA-A96B-96FF91E69025} = {D1E534C9-20B0-4FA0-A4FF-B9943D7838B5}
+		{BD1DBC5D-FB63-4993-BFAC-62C67129C293} = {D1E534C9-20B0-4FA0-A4FF-B9943D7838B5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {516096A5-CC79-44D7-A86F-9EADDFA31CF8}
+	EndGlobalSection
+EndGlobal
